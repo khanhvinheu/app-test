@@ -1,0 +1,116 @@
+.header{
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    /* width: 100vw; */
+    background-color: #212d41;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+.container{
+    padding: 0;
+    margin: auto;
+    width: 100%;
+    max-width: 700px;
+   
+}
+#logo{
+    width: 120px;
+   
+}
+li {
+    display: inline;
+    padding: 3px;
+    font-size: 12px;
+}
+.footer-contain{
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 25px;
+    flex-direction: column;
+}
+.footer{ 
+    padding: 10px;
+    min-height: 200px;
+    /* width: 100vw; */
+    background-color: #212d41;
+}
+.box-img-footer{
+    width: 200px;
+    height: 100px;
+}
+.bottom-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 25px;
+    height: 100px;
+    /* width: 100vw; */
+    background-color: #162032;
+}
+#img-down{
+   margin: 10px;
+}
+.box-container{    
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.avatar{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    /* background-color: #212d41; */
+    margin-bottom: 10px;
+    box-shadow: -2px 2px 16px 6px rgba(0,0,0,0.25);
+-webkit-box-shadow: -2px 2px 16px 6px rgba(0,0,0,0.25);
+-moz-box-shadow: -2px 2px 16px 6px rgba(0,0,0,0.25);
+background-position: center;
+background-repeat: repeat;
+background-size: contain;
+}
+.name-customer{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+.box-1{
+    /* min-height: 100px; */
+    width: 100%;  
+    box-shadow: -2px 2px 5px 5px rgba(194,233,246,0.87);
+-webkit-box-shadow: -2px 2px 5px 5px rgba(194,233,246,0.87);
+-moz-box-shadow: -2px 2px 5px 5px rgba(194,233,246,0.87);
+border-radius: 10px;
+margin-top: 20px;
+padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.box-title{
+    width: 100%;  
+    box-shadow: -2px 2px 5px 5px rgba(194,233,246,0.87);
+-webkit-box-shadow: -2px 2px 5px 5px rgba(194,233,246,0.87);
+-moz-box-shadow: -2px 2px 5px 5px rgba(194,233,246,0.87);
+border-radius: 10px;
+margin-top: 20px;
+padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+#nhatKyCongViec{
+    width: 100%;
+}
+.img-nkct{
+    width: 60px;
+    margin: 10px;
+}
